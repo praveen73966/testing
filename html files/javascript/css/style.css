@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+body {
+    background-color: #eee;
+    background-image: url(https://i.pinimg.com/originals/13/f7/30/13f730385d7e0ac309658394df37d52b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div {
+    flex: 1;
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+}
+img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+h2 {
+    border-bottom: 1px solid #eee;
+    padding: 10px;
+}
+p{
+    padding: 5px;
+}
+  
+
+

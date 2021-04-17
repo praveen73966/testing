@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://pro.fontawesome.com/releases/v5.10.0/css/all.css');
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color:#eeeeee;
+    font-family: Roboto,Arial,sans-serif;
+    letter-spacing: 0;
+}
+
+#headerBlock{
+    background-color: blue;
+    height: 56px;
+    color: white;
+    padding-top: 10px;  
+}
+
+#headerBlock article{
+display: flex;
+width:80%;
+margin: 0 auto;
+font-size: 17px;
+}
+
+.leftBlock{
+    width: 70%;
+    display: flex;  
+}
+
+.logoBlock{
+    width: 16%;
+    display: flex;
+    flex-direction: column;
+}
+
+ .parentLOgo{
+    width: 25%;
+    display: flex;   
+}
+
+.searchBlock{
+    
+    width: 84%;
+}
+
+ .parentLOgo img{
+    width: 75px; 
+} 
+
+.explore{
+    color: white;
+} 
+
+.plus{
+    color: #ffe500;
+    font-weight: 600;
+    margin-left: 2px;
+}
+
+.logoBlock a{
+    text-decoration: none;
+    font-style: italic;
+    font-size: 11px;
+    text-transform: capitalize;
+}
+
+.childLogo{
+    width: 10px;
+}
+
+.searchBlock form{
+    display: flex;
+    margin-left: 20px;  
+}
+
+.searchBlock form input{
+    width: 95%;
+    height: 40px;
+    padding: 0 0px 0 30px;
+    border-radius: 3px;
+    border: none;
+    
+}
+
+::placeholder{
+    font-size: 13px;
+    color: grey;
+}
+
+.searchIcon{
+position: relative;
+}
+
+.searchBlock i{
+    color: #2874f0;
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    top: 12px;
+    left: -35px;
+}
+
+
+.rightBlock{
+    width: 35%;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.rightBlock > ul{
+    list-style: none;
+    display: flex;
+}
+
+.rightBlock > ul li{
+    margin: 0 30px;
+    margin-top: 9px;
+}
+
+.rightBlock > ul li a{
+    color: white;
+    text-decoration: none; 
+    text-transform: capitalize;
+    margin-left: -15px;   
+}
+
+
+.rightBlock .login{
+    background-color: white;
+    color: blue;
+    padding: 8px 50px;
+    font-weight: bold;  
+}
+
+.dropdown{
+    position: absolute;
+    list-style: none;
+    background: white;
+    top: 56px;
+    display: none;
+    margin-left: -55px;
+    width: 200px;
+    font-size: 12px;
+    /* border-radius: 5px; */
+}
+
+.dropdown li a{
+    padding: 0px;
+    margin: 0px;
+    color: black !important;
+    width: 100%;
+    display: flex;
+    font-weight: normal;
+    height: 40px;   
+}
+
+.rightBlock ul li:hover > .dropdown{
+    display: block;
+}
+.rightBlock ul li:hover > .arrow-up{
+    display: block;
+    
+}
+
+.arrow-up{
+    border-bottom: 12px solid white;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    height: 0;
+    width: 0;
+    margin: auto;
+    position: relative;
+    top: 9px; 
+    display: none;
+    
+}
+
+.sign{ 
+    display: flex;
+}
+.sign li a{
+    width: 85px;
+    height: 30px;
+    font-weight: bold;
+}
+
+.icons li a{
+    padding-top: 10px; 
+}
+.icons li a i{
+    background-color: white;
+    margin-right: 10px;
+    color: blue;
+}
+.arrow{
+    width: 0px;
+    margin-left: 13px;
+    margin-top: -32px;
+    font-size:40px;
+    transform: rotate(270deg);
+    color: white;
+    opacity: .8;
+}
+.rightBlock ul li:hover > .arrow{
+    transform: rotate(90deg);
+    margin-left: 35px;
+    margin-top: -32px;
+}
+
+.dropdown-m{
+    position: absolute;
+    list-style: none;
+    background: white;
+    top: 56px;
+    display: none;
+    margin-left: -90px;
+    width: 200px;
+    font-size: 12px;
+    /* border-radius: 5px; */
+}
+
+.dropdown-m li a{
+    padding: 0px;
+    margin: 0px;
+    color: black !important;
+    width: 100%;
+    display: flex;
+    font-weight: normal;
+    height: 40px;   
+}
+
+.rightBlock ul li:hover > .dropdown-m{
+    display: block;
+}
+.rightBlock ul li:hover > .arrow-uptwo{
+    display: block;
+   
+}
+
+.iconstwo li a{
+    padding-top: 10px; 
+    margin-left: 100px;
+    width: 180px;
+}
+.iconstwo li a i{
+    background-color: white;
+    margin-right: 20px;
+    padding-top: 3px;
+    color: blue;
+}
+
+.arrow-uptwo{
+    border-bottom: 12px solid white;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    height: 0;
+    width: 0;
+    margin: auto;
+    position: relative;
+    top: -8px; 
+    display: none;
+}
+
+.cart{
+    width: 0px;
+    display: flex;
+}
+#ic{
+    margin-right: 8px; 
+}
+
+#offerBlock{
+    height: 100px;
+    background-color: white;
+    border-bottom: 1px solid black;    
+}
+
+#offerBlock article{
+    width: 90%;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+#offerBlock article div {
+    flex: 1;
+}
+#offerBlock article div a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+}
+#offerBlock article div a img{
+    height: 50px;
+    width: 50px;
+}
+.menuMiddle nav{
+    width: 100%;
+    margin: 0 auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+#menuMiddle nav > ul li {
+    margin-right: 78px;
+}
+#menuMiddle nav > ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+.megaMenu{
+    position: absolute;
+    top: 217px;
+    width: 1300px !important;
+    background-color: white;
+    display: none;
+    text-align:left;
+    height: 85vh;
+}
+.megaMenu div{
+    flex: 1;
+}
+.megaMenu div:nth-child(odd){
+    background-color: white;
+}
+.megaMenu div:nth-child(even){
+    background-color: #efefef2e;
+}
+.megaMenu ul{
+    list-style: none;
+}
+.megaMenu ul li a{
+    padding: 3px 30px;
+    display: block;
+    font-weight: normal !important;
+    font-size: 14px !important;
+}
+#menuMiddle ul li:hover > .megaMenu{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+/*#flex-test{
+    height: 300px;
+    width: 300px;
+    background-color: chartreuse;
+    margin: 10px auto;
+    color: #fff;
+    font-size: 20px;*/
+    /*........flex container....
+    justify-content: flex-start;
+    justify-content: flex-end;
+}*/

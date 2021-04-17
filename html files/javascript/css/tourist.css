@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://seoimgak.mmtcdn.com/blog/sites/default/files/images/Taj-at-night.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    background-color:rgba(0,0,0,0.2);
+    color: whitesmoke;
+}
+nav .logo{
+   width: 25%;
+   text-align:center;
+}
+nav .menu{
+    width: 40%;
+    text-align:center;
+    display: flex;
+    justify-content: space-around;
+}
+nav .menu a{
+    text-decoration:none;
+    color: white;
+}
+main {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    color: white;
+}
+section h3{
+    font-size: 35px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px black;
+}
+section h1{
+    font-size: 55px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px black;
+    margin: 30px 0 20px 0;
+    
+}
+section p{
+    font-size: 25px;
+    word-spacing: 2px;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 2px black;
+
+}
+section a{
+    text-decoration:none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 10px;
+    font-weight: 500;
+    border-radius: 4px;
+    padding: 12px 30px;
+}
+section .button1{
+    background: #fff;
+    color: #000;
+}
+
+section .button2{
+    background: #00b894;
+    color: #000;
+}
+nav .menu a:first-child{
+    color: #00b894;
+}
+
+
+
+
+
+

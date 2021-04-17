@@ -1,0 +1,15 @@
+body p{
+    color: blue;
+}
+div > p{
+    color: crimson;
+}
+div + p{
+    color: darkgreen;
+}
+div ~ p{
+    color: darkorange;
+}
+ul{
+    color: gold;
+}
